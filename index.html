@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="stylesheet.css" rel=stylesheet>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <button id="click">Click Me</button>
+        <div>
+        <img src="EnglishChart.png">
+        <p>This chart displays the reasons why students drop out of school. This relates to lack of motivation because students who drop out typically do not feel motivated to go to school no more; they do not find a reason why they need to go to school. If a student does not go to school, they do not do the schoolwork and that means they would not pass.
+        </p>
+        </div>
+        <script>
+     $("div").hide();
+$("#click").click(function() {
+    $("#click").hide();
+    $("div").show();
+});
+        </script>
+    </body>
+</html>
